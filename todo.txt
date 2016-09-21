@@ -1,0 +1,20 @@
+edge welcome prompt 
+    - powershell/active setup
+    - EdgeWelcome.ps1
+windows defender prompt
+    - also handled in edge welcome
+    - EdgeWelcome.ps1
+program defaults
+    - ie default browser
+    - reader default pdf
+    - handled with xml/dism
+    - defaultapps.cmd
+start layout defaults
+    - check 64/32
+    - set for each office version
+    - ApplyCustomMenu.ps1
+custom taskbar buttons
+    - handled via activesetup
+    - custom shortcuts
+    - ApplyTaskbar.ps1
+additional telemetry modifications if necessary 
