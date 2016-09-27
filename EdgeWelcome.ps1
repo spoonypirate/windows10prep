@@ -1,3 +1,4 @@
+Start-Transcript -Path "C:\IT\smsts-win10prep.txt" -NoClobber -Append -Force 
 function Start-Proc
 {
      param([string]$Exe = $(Throw "An executable must be specified"),
@@ -40,3 +41,5 @@ new-itemproperty "HKCU:\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windo
 new-itemproperty "HKCU:\SOFTWARE\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\Main" -Name "DisallowDefaultBrowserPrompt" -Value 1 -Type DWORD -Force -ErrorAction SilentlyContinue | Out-Null
 
 new-itemproperty "HKCU:\SOFTWARE\Microsoft\Windows Defender" -Name "UIFirstRun" -Value 0 -Type DWORD -Force -ErrorAction SilentlyContinue | Out-Null
+
+Stop-Transcript

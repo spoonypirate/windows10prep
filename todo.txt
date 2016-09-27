@@ -17,4 +17,4 @@ custom taskbar buttons
     - handled via activesetup
     - custom shortcuts
     - ApplyTaskbar.ps1
-additional telemetry modifications if necessary 
+additional telemetry modifications if necessary

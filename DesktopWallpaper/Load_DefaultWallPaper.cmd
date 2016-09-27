@@ -1,0 +1,1 @@
+xcopy DesktopWallpaper\img0.jpg C:\Windows\Web\Wallpaper\Windows\ /Q /Y
