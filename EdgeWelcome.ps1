@@ -1,4 +1,4 @@
-Start-Transcript -Path "C:\IT\smsts-win10prep.txt" -NoClobber -Append -Force 
+Start-Transcript -Path "$env:SystemDrive\IT\smsts-win10prep.txt" -NoClobber -Append -Force 
 function Start-Proc
 {
      param([string]$Exe = $(Throw "An executable must be specified"),

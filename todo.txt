@@ -1,20 +1,29 @@
 edge welcome prompt 
-    - powershell/active setup
+    - powershell/active setup 
     - EdgeWelcome.ps1
+    - half works, orange screen gone
 windows defender prompt
     - also handled in edge welcome
     - EdgeWelcome.ps1
+    - done
 program defaults
     - ie default browser
     - reader default pdf
     - handled with xml/dism
     - defaultapps.cmd
+    - done
 start layout defaults
     - check 64/32
     - set for each office version
     - ApplyCustomMenu.ps1
+    - didnt work again
 custom taskbar buttons
     - handled via activesetup
     - custom shortcuts
     - ApplyTaskbar.ps1
+    - didnt work, IT folder not present
+        - add detection to PS and make folder if necessary
+default windows wallpaper
+    - load_defaultwallpaper.cmd
+    - made image but requires you clicking around on available wallpapers
 additional telemetry modifications if necessary
